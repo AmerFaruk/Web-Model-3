@@ -1,100 +1,160 @@
-/*about-me*/
-.header-background {
-    height: 35%;
-    width: 35%;
+/* BOOTSTRAPT STARTS*/
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 0 4.5rem;
 }
-.name-header {
-    text-align: center;
+.navbar-brand {
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
     color: #363333;
+}
+.nav-link:hover {
+    color: #EC625F;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+}
+
+
+/* BOOTSTRAPT ENDS*/
+
+/* TITLE SECTION STARTS */
+#title-section{
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #D8D8D8;
+}
+.block-head{
+    font-family: 'Righteous', cursive;
+}
+.header-background {
+    width: 50%;
+}
+
+.name-header {
     font-size: 4.7rem;
     margin: 10px;
-    line-height: 14px;
+    color: #363333;
+    
 }
 .name-header-two {
-    text-align: center;
-    color: #363333;
     font-size: 2rem;
-    font-weight: normal;
+    color:#EC625F;
 }
-.about-me-body {
-
-    background-color: #D8D8D8;
-    margin: 0px;
+.head-hr{
+    color: #363333;
 }
-.top-container{
-    font-family: 'Raleway', sans-serif;
-    height: 650px;
-}
-.block-head {
+/* TITLE SECTION ENDS */
+/* INTERESTS SECTION STARTS*/
+#interest-section{
+    padding: 3% 3%;
     text-align: center;
-    position: absolute;
-    top: 150px;
-    left: 25%;
-    right: 25%;
+    background-color: #363333;
+    color: #D8D8D8;
+}
+#interest-section .container-fluid {
+    padding: 7% 7%;
 }
 
-.middle-container{
-    font-family: 'Raleway', sans-serif;
-    margin-top: 100px;
-    
+.interest-hr{
+    color: #D8D8D8;
 }
-.interests{
-    text-align: center;
-    
+.interest-header {
+    font-family: 'Righteous', cursive;
+    font-size: 4.5rem;
 }
-.interest{
+
+.row-main {
+    padding-top: 7%;
+}
+
+.row-card-left {
+    padding: 7% 5%;
     text-align: left;
-    line-height: 2;
-    width: 50%;
-    margin: 100px auto 100px auto;
-    color: #363333;
 }
+.row-card-right{
+    padding: 7% 5%;
+    text-align: right;
+}
+
+.col-img{
+    padding: 5% 5%;
+}
+.col-text{
+    padding: 5% 0 5% 0;
+}
+
 .interest-header-3 {
-    color: #363333;
-    font-size: 1.6rem;
+    font-family: 'Righteous', cursive;
+    color: #EC625F;
+    font-size: 3.0rem;
+}
+
+.red-3{
+    color: #ad1a25;
+}
+.yellow-3{
+    color: #f7e063;
+}
+.blue-3{
+    color: #43c3cf;
+}
+.pink-3{
+    color: #f47a9f;
+}
+.yellowl-3{
+    color: #fca433;
+}
+.white-3{
+    color: #848484;
 }
 .ab-p {
-    font-family: 'Roboto', sans-serif;
-}
-.interest-background-red {
-    float: left;
-    width: 40%;
-    margin-right: 30px;
-}
-.interest-background-gold {
-    float: right;
-    width: 40%;
-    margin-left: 30px;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 1.4rem;
 }
 
-.interest-header {
-    color: #363333;
-    font-size: 4.0rem;
+.int-img {
+    width: 100%;
 }
-.bottom-container{
-    font-family: 'Raleway', sans-serif;
-    margin-top: 100px;
-}
-.get-in-touch {
-    font-family: 'Roboto', sans-serif;
+
+/* INTERST SECTION ENDS */
+/* CONTACT SECTION STARTS*/
+#contact-section{
+    padding: 3% 3%;
     text-align: center;
-    line-height: 2;
-    width: 50%;
-    margin: 100px auto 100px auto;
+    background-color: #D8D8D8;
+    
+}
+
+.contact-hr{
+    color: #EC625F;
+}
+
+.get-in-touch {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 1.4rem;
     color: #363333;
+    text-align: left;
 }
-.contact-btn{
-    background-image: url(sources/image/permanent/contact-button.png);
-    color: #D8D8D8 ;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-style: none;
-    background-color: #D8D8D8 ;
-    font-size: 18px;
-    width: 250px;
-    height: 250px;
+
+.contact-message{
+    padding: 5% 0 5%;
+    font-size: 2.3rem;
 }
+.sekiro {
+    width: 100%;
+ }
 
 .contact-btn-a-cv {
   -webkit-border-radius: 60;
@@ -115,159 +175,26 @@
 .contact-btn-a-cv:visited {
     color: #D8D8D8;
 }
-.contact-btn-a {
-    color: #D8D8D8;
-    text-decoration-line: none;
-}
-.contact-btn-a:visited {
-    color: #D8D8D8;
-}
-.finish-container {
-    height: 150px;
+/* CONTACT SECTION ENDS*/
+/* COPYRIGHT SECTION STARTS*/
+#Copyright .container-fluid {
+    text-align: center;
     background-color: #EC625F;
-    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
-.sekiro {
-    float: right;
-    width: 40%;
-    margin-left: 50px;
-}
-.copyright {
+.footer-end {
+    font-family: 'Cantarell', sans-serif;
+    padding-top: 2%;
     color: #D8D8D8;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
 }
-hr {
-    border: dotted #EC625F 6px;
-    border-bottom: none;
-    width: 4%;
+.fa-brands{
+    color: #363333;
 }
-
-
-
-
-/**/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CV */
-.cv-body {
-    margin: 0px;
-}
-.left-part {
-    text-align: center;
-    
-    height: 1800px;
-    width: 30%;
-    background-color: #2B2B2B;
-    display: inline-block;
-    position: absolute;
-}
-
-.shortcut {
-    text-align: center;
-    margin: 15px;
+/*COPYRIGHT SECTION ENDS*/
+@media (max-width: 1000px) {
+    .int-img {
+        padding: 0 15%;
+    }
     
 }
-.profile {
-    display: inline-block;
-    width: 75%;
-    height: 75%;
-}
-.iconContainer {
-    display: inline-block;
-    margin: 25px;
-    text-align: center;
-}
-.communication {
-    display: inline-flex;
-    width: 25px;
-    height: 25px;
-}
-.right-part {
-    text-align: center;
-
-    height: 1800px;
-    width: 70%;
-    background-color: #423F3E;
-    position: absolute;
-    left: 30%;
-}
-.description {
-    text-align: center;
-
-    position: absolute;
-    left: 25%;
-    width: 50%;
-}
-.hello {
-    text-align: left;
-
-}
-.thisWebsite {
-    text-align: left;
-
-}
-.skills {
-    text-align: left;
-
-}
-.last {
-    text-align: left;
-}
-.git {
-    text-align: left;
-}
-.name {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
-
-.header-cv {
-    font-family: 'Raleway', sans-serif;
-    color: #EC625F;
-    font-size: 54px;
-}
-.p-cv {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #F6E9E9;
-}
-
-
-/*****/
